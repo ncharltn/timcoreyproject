@@ -1,0 +1,100 @@
+/*---------Fonts and Colors--------
+Fonts: 
+Montserrat Black for titles
+Montserrat Regular for all other text. 
+
+font-family: 'Montserrat', sans-serif;
+
+Colors: 
+Red (#E9354C)
+Grey (#AEB5BF)
+--------------------------------*/
+
+/*---------Global Styles--------*/
+
+.site {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    background: #E9354C;
+}
+
+.header-image {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: none;
+}
+
+.youtube-video {
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+h1 {
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h2, h3, p {
+    margin: 0 auto;
+}
+
+.save-time-image {
+    max-width: 75%;
+    margin: 0 auto;
+}
+/* header {
+    background-color: #E9354C;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+
+.header-image {
+    grid-column: 1/2;
+    margin: 0 auto;
+    max-width: 50%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.youtube {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.youtube-video {
+    grid-column: 1/2;
+    margin: 0 auto;
+}
+
+.save-time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.save-time-image {
+    max-width: 60%;
+    height: auto;
+}
+
+button {
+    background-color: #E9354C;
+    color: white;
+    border-color: #E9354C;
+    border-radius: 5px;
+    padding: 5px 10px;
+} */
