@@ -14,7 +14,7 @@ Grey (#AEB5BF)
 
 .site {
     font-family: 'Montserrat', sans-serif;
-    max-width: 600px;
+    /* max-width: 600px; */
     margin: 0 auto;
 }
 
@@ -36,7 +36,9 @@ section {
 }
 
 .youtube-video {
-    margin: 0 auto;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
     padding: 30px 20px;
 }
 
@@ -44,6 +46,7 @@ h1 {
     margin: 0 auto;
     font-size: 24px;
     font-weight: bold;
+    line-height: 1.5;
 }
 
 h2, h3, p {
@@ -53,6 +56,38 @@ h2, h3, p {
 .save-time-image {
     max-width: 75%;
     margin: 0 auto;
+}
+
+.boxes-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.grey-box {
+    background-color: #AEB5BF;
+    margin: 20px;
+    text-align: center;
+    padding: 20px 10px;
+    color: white;
+    font-weight: bold;
+    flex-basis: 110px;
+    border-radius: 20px;
+}
+
+.grey-box h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.grey-box p {
+    font-size: 12px;
+    line-height: 1;
+}
+
+.and-more {
+    line-height: 2.0;
+    margin-top: 20px;
 }
 /* header {
     background-color: #E9354C;
