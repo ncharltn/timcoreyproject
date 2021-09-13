@@ -13,123 +13,190 @@ Grey (#AEB5BF)
 /*---------Global Styles--------*/
 
 .site {
-    font-family: 'Montserrat', sans-serif;
-    /* max-width: 600px; */
-    margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  /* max-width: 600px; */
+  margin: 0 auto;
 }
 
 header {
-    display: flex;
-    background: #E9354C;
+  display: flex;
+  background: #e9354c;
 }
 
 .header-image {
-    max-width: 50%;
-    margin: 0 auto;
-    padding: 30px 0;
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 30px 0;
 }
 
 section {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: none;
 }
 
 .youtube-video {
-    margin: auto;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    padding: 30px 20px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 30px 20px;
 }
 
 h1 {
-    margin: 0 auto;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 1.5;
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
 }
 
-h2, h3, p {
-    margin: 0 auto;
+h2,
+h3,
+p {
+  margin: 0 auto;
+}
+
+.save-time h1 {
+  font-size: 2rem;
+}
+
+.save-time p {
+  font-size: 1.5rem;
 }
 
 .save-time-image {
-    max-width: 75%;
-    margin: 0 auto;
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.c-starter h1 {
+  font-size: 2rem;
+}
+
+.c-starter p {
+  font-size: 1.4rem;
 }
 
 .boxes-container {
-    display: flex;
-    justify-content: center;
-    margin: 10px;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
 }
 
 .grey-box {
-    background-color: #AEB5BF;
-    margin: 20px;
-    text-align: center;
-    padding: 20px 10px;
-    color: white;
-    font-weight: bold;
-    flex-basis: 110px;
-    border-radius: 20px;
+  background-color: #aeb5bf;
+  margin: 20px;
+  text-align: center;
+  padding: 20px 10px;
+  color: white;
+  font-weight: bold;
+  flex-basis: 110px;
+  border-radius: 20px;
 }
 
 .grey-box h1 {
-    font-size: 60px;
-    margin-bottom: 10px;
+  font-size: 60px;
+  margin-bottom: 10px;
 }
 
 .grey-box p {
-    font-size: 12px;
-    line-height: 1;
+  font-size: 12px;
+  line-height: 1;
 }
 
 .and-more {
-    line-height: 2.0;
-    margin-top: 20px;
-}
-/* header {
-    background-color: #E9354C;
-    display: grid;
-    grid-template-columns: 1fr;
-    width: 100%;
+  line-height: 2.75;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
-.header-image {
-    grid-column: 1/2;
-    margin: 0 auto;
-    max-width: 50%;
-    height: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
+.and-more h1 {
+  font-size: 2rem;
 }
 
-.youtube {
-    display: grid;
-    grid-template-columns: 1fr;
+.and-more p {
+  font-size: 1.2rem;
 }
 
-.youtube-video {
-    grid-column: 1/2;
-    margin: 0 auto;
+.about {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  background: #AEB5BF;
+  padding: 5vh;
+ 
 }
 
-.save-time {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.about img {
+  grid-column: 1/2;
+  height: auto;
+  width: 150%;
+  position: relative;
+  right: 10%;
 }
 
-.save-time-image {
-    max-width: 60%;
-    height: auto;
+.about-details {
+  grid-column: 2/3;
+  color: white;
+  padding-top: 10px;
 }
 
-button {
-    background-color: #E9354C;
-    color: white;
-    border-color: #E9354C;
-    border-radius: 5px;
-    padding: 5px 10px;
-} */
+.about-details h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+.about-details p {
+  margin: 20px
+}
+
+.testimonies {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #E9354C;
+  display: grid;
+  grid-template-columns: 65%;
+  justify-content: center;
+}
+
+.testimonies h1{
+  font-size: 2rem;
+  padding-bottom: 30px;
+  color: white;
+}
+.testimonies blockquote {
+  background: white;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.testimonies cite {
+  color: white;
+  text-align: right;
+}
+
+.final-cta {
+  margin-top: 40px;
+  display: inline-flex;
+}
+
+.final-cta h1 {
+  font-size: 2rem;
+}
+
+.final-cta p {
+  font-size: 1.25rem;
+}
+
+.final-cta img {
+  margin: 20px auto;
+  height: auto;
+  width: 90%;
+  justify-content: center;
+}
+
+.final-cta div:last-of-type {
+  height: 15vh;
+  background: #AEB5BF;
+}
