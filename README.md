@@ -1,2 +1,2 @@
 # timcoreyproject
-Collab with Noah to make this site and practice coding.
+Created a webpage for IAmTimCorey's C# Starter Kit.
