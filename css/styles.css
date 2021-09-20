@@ -17,11 +17,17 @@ Grey (#AEB5BF)
   margin: 0 auto;
 }
 
+section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: none;
+}
+
 h1 {
   text-align: center;
   font-size: 3vw;
   font-weight: bold;
-  line-height: 1.5;
+  line-height: 1;
 }
 
 p {
@@ -45,19 +51,6 @@ header {
   margin: 0 auto;
   padding: 30px 0;
 }
-
-section {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: none;
-}
-
-/* .youtube-video {
-  margin: auto;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  padding: 30px 20px;
-} */
 
 .youtube {
   width: 60%;
@@ -83,41 +76,23 @@ section {
   width: 100%;
 }
 
-/* .save-time h1 {
-  font-size: 2rem;
-}
-
-.save-time p {
-  font-size: 1.5rem;
-} */
-
 .save-time-image {
   max-width: 75%;
   margin: 0 auto;
 }
 
 .btn-lg {
-  width: 30vw;
-  height: 10vh;
+  width: 30%;
   font-size: 3vw;
 }
 
-/* .c-starter h1 {
-  font-size: 2rem;
-}
-
-.c-starter p {
-  font-size: 1.4rem;
-} */
-
 .boxes-container {
   display: grid;
-  grid-template-columns: repeat(3, 23vw);
-  grid-template-rows: 25vh;
-  grid-gap: 5vw;
+  grid-template-columns: repeat(3, 20%);
+  grid-gap: 6vw;
   justify-content: center;
-  margin-top: 3vh;
-  margin-bottom: 5vh;
+  margin-top: 1vh;
+  margin-bottom: 4vh;
 }
 
 .grey-box {
@@ -125,21 +100,26 @@ section {
   text-align: center;
   color: white;
   font-weight: bold;
-  border-radius: 20px;
+  border-radius: 4vw;
 }
 
 .grey-box h1 {
   font-size: 10vw;
+  line-height: 1.5;
 }
 
 .grey-box p {
   font-size: 2vw;
-  line-height: 1;
+  line-height: 1.3;
 }
 
 .and-more {
-  line-height: 2;
   margin-bottom: 3vh;
+  line-height: 2;
+}
+
+.and-more h1 {
+  margin-bottom: 1.5vh;
 }
 
 .about {
@@ -152,9 +132,9 @@ section {
 .about img {
   grid-column: 1/2;
   height: auto;
-  width: 150%;
+  width: 175%;
   position: relative;
-  right: 10%;
+  right: 33%;
 }
 
 .about-details {
@@ -163,15 +143,9 @@ section {
   padding-top: 10px;
 }
 
-/* .about-details h1 {
-  text-align: center;
-  margin-top: 20px;
-  font-size: 2rem;
-} */
-
-/* .about-details p {
-  margin: 1.5rem;
-} */
+.about-details * {
+  text-align: left;
+}
 
 .testimonies {
   padding-top: 5vh;
@@ -206,22 +180,9 @@ section {
   display: inline-flex;
 }
 
-/* .final-cta h1 {
-  font-size: 2rem;
-} */
-
-/* .final-cta p {
-  font-size: 1.25rem;
-} */
-
 .final-cta img {
   margin: 20px auto;
   height: auto;
-  width: 90%;
+  width: 70%;
   justify-content: center;
-}
-
-.final-cta div:last-of-type {
-  height: 15vh;
-  background: #aeb5bf;
 }
